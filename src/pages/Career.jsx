@@ -3,10 +3,12 @@ import Footer from '../Module/home/footer';
 import Overview from '../Module/home/overview';
 const Career = () => {
   return (
-    <body data-theme="nord" className="bg-base-100 w-full min-h-screen">
+    <body data-theme="nord" className="bg-base-100  max-w-full min-h-screen">
       <Overview />
      <Footer />
     </body>
+
+    
   );
 };
 
