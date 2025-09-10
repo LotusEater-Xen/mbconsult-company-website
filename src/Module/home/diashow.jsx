@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Diashow() {
   return (
-    <div className="w-full mx-auto">
+    <div className=" mx-auto">
     
         <div className="max-h-screen w-full object-cover carousel carousel-center ">
           <div id="slide1" className="carousel-item w-full ">

@@ -6,8 +6,8 @@ import { BrowserRouter as Router,
 import Navbar from './Module/global/navbar.jsx'
 
 import Home from './pages/Home';
-import Career from './pages/career';
-import Contact from './pages/contact';
+import Career from './pages/Career';
+import Contact from './pages/Contact';
 
 function App() {
   return (
