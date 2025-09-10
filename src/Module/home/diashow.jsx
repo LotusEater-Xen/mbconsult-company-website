@@ -47,6 +47,10 @@ export default function Diashow() {
 </div>
 
         </div>
+        <div className="flex w-full justify-center gap-2 py-2">
+  <a href="#slide1" className="btn btn-xs"></a>
+  <a href="#slide2" className="btn btn-xs"></a>
+</div>
        
       </div>
 

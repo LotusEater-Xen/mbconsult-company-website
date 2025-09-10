@@ -8,6 +8,7 @@ import Navbar from './Module/global/navbar.jsx'
 import Home from './pages/Home';
 import Career from './pages/Career';
 import Contact from './pages/Contact';
+import Services from './pages/Services.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/career" element={<Career />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/services" element={<Services />} />
             </Routes>
         </Router>
   );

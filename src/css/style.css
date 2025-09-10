@@ -59,3 +59,6 @@
   @apply m-4 mb-0 mt-0 pl-6 pr-6;
   @apply hover:shadow-[inset_4px_4px_8px_rgba(0,0,0,0.1),inset_-2px_-2px_8px_rgba(255,255,255,0.1)];
 }
+.carousel {
+  scroll-snap-type: x mandatory; /* Only horizontal snapping */
+}
