@@ -6,7 +6,7 @@ export default function Diashow() {
     <div className=" mx-auto">
     
         <div className=" w-full rounded-b-lg shadow-md object-cover carousel carousel-center ">
-          <div id="slide1" className="carousel-item w-full ">
+          <div id="slide1" className="carousel-item w-full">
             <div
   className="hero min-h-140"
   style={{
@@ -16,7 +16,7 @@ export default function Diashow() {
 >
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
-    <div className="w-120">
+    <div className="max-w-lg">
       <h1 className="mb-2 text-5xl font-bold">Effizienz startet hier</h1>
       <p className="mb-5 inline-block text-shadow-lg">
         Material. Energie.
@@ -27,7 +27,7 @@ export default function Diashow() {
 </div>
            
           </div>
-          <div id="slide2" className="carousel-item w-full object-cover">
+          <div id="slide2" className="carousel-item w-full">
             <div
   className="hero  min-h-140"
   style={{
@@ -37,7 +37,7 @@ export default function Diashow() {
 >
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
-    <div className="max-w-md">
+    <div className="max-w-lg">
       <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
       <p className="mb-5">
         This website is not finished yet please stay calm and keep developing one day it will be done propably I guess.
