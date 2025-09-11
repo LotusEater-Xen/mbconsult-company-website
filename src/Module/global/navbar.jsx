@@ -28,7 +28,7 @@ export default function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-     <div className="md:hidden mr-5">
+     <div className="lg:hidden mr-5">
     <ul className="menu menu-horizontal px-1">
       <li>
         <details>
