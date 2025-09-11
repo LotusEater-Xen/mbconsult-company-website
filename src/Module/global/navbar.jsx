@@ -14,13 +14,13 @@ export default function Navbar() {
 
   return (
 
-<div className="navbar max-w-full shadow-sm" data-theme="nord">
-  <div className="navbar-start">
-  <img src={logo} className='pl-5 max-h-12'/>
-  <div className='pl-5 font-medium text-lg'>MBConsultMe Gmbh</div>
+<div className="navbar max-w-full" data-theme="nord">
+  <div className="ml-5 navbar-start ">
+  <img src={logo} className=' max-h-12'/>
+  <div className='pl-5 font-medium text-lg hidden'>MBConsultMe Gmbh</div>
   </div>
-  <div className="navbar-center lg:flex">
-       <ul className="menu menu-horizontal px-1">
+  <div className="navbar-center ">
+       <ul className="menu menu-horizontal px-1 lg:flex hidden">
       <Link to={"contact"} className='btn tooltip tooltip-bottom' data-tip="contact" ><FontAwesomeIcon icon={faPhone} /></Link>
       <Link to={""} className='btn tooltip tooltip-bottom' data-tip="home" >  <FontAwesomeIcon icon={faHome} /></Link>
       <Link to={"career"} className='btn tooltip tooltip-bottom' data-tip="team" ><FontAwesomeIcon icon={faUsers} /></Link>
@@ -28,7 +28,20 @@ export default function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to={"services"} className='btn max-w-50 border-2 border-solid border-gray-300 flex'>services →</Link> 
+     <div className="md:hidden mr-5">
+    <ul className="menu menu-horizontal px-1">
+      <li>
+        <details>
+          <summary>Parent</summary>
+          <ul className="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+    <Link to={"services"} className='lg:flex hidden btn max-w-50 border-2 border-solid border-gray-300 flex'>services →</Link> 
   </div>
 </div>
 

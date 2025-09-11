@@ -2,16 +2,17 @@
 
 const Kurzübersicht = () =>{
     return(
-<div className=" highlighter max-w-6xl mx-auto px-5 mt-16">
+        <div className="w-full shadow-lg rounded-b-lg bg-base-100">
+<div className=" max-w-6xl mx-auto p-5 pb-10">
 
     <div className="text-center">
-        <h2 className="font-semibold text-3xl">Features you'll love</h2>
+        <h1 className="font-semibold text-3xl"> Unser Konzept</h1>
         <p className="max-w-md mx-auto mt-2 text-gray-500">A responsive documentation template built for everyone who wants
             to create a plugin.</p>
     </div>
 
 
-    <div className="grid md:grid-cols-2 gap-10 mt-10 mb-10">
+    <div className="grid md:grid-cols-2 gap-10 mt-10">
 
 
         <div className="flex gap-4 items-start">
@@ -80,6 +81,7 @@ const Kurzübersicht = () =>{
         </div>
 
     </div>
+</div>
 </div>
     );
 };

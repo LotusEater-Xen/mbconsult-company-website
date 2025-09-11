@@ -45,6 +45,13 @@
 }
 @layer components {
   .highlighter {
+    @apply rounded-md;
+  @apply border-none;
+  @apply shadow-md;
+  @apply inset-shadow-md;
+  @apply shadow-[inset_-4px_-4px_8px_rgba(0,0,0,0.1),inset_2px_2px_2px_rgba(255,255,255,0.3)];
+  @apply shadow-[4px_4px_12px_rgba(0,0,0,0.1)];
+  @apply m-4 mb-0 mt-0 pl-6 pr-6;
     
   }
 }
