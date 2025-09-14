@@ -17,7 +17,7 @@ export default function Navbar() {
 <div className="navbar max-w-full" data-theme="nord">
   <div className="ml-5 navbar-start ">
   <img src={logo} className=' max-h-12'/>
-  <div className='pl-5 font-medium text-lg hidden'>MBConsultMe Gmbh</div>
+  <div className='pl-5 font-medium text-lg hidden lg:flex'>MBConsultMe Gmbh</div>
   </div>
   <div className="navbar-center ">
        <ul className="menu menu-horizontal px-1 lg:flex hidden">

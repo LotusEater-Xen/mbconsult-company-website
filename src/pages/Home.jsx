@@ -2,6 +2,7 @@
 
 //Lukas Comment: Here I Imported the modules that I chose to put on the page
 import Overview from '../Module/home/overview';
+import Grid from '../Module/home/grid';
 import Diashow from '../Module/home/diashow';
 import Footer from '../Module/home/footer';
 import '../css/style.css'; // Import the CSS for this component
@@ -17,6 +18,7 @@ const Home = () => {
       <div className='bg-base-100 shadow-lg'  >
       <Diashow />
       </div>
+      <Grid />
       <Overview />
       <Footer />
     </body>
