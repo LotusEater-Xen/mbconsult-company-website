@@ -15,9 +15,7 @@ const Home = () => {
 //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
   return (
       <body data-theme="nord" className="bg-base-200  max-w-full  min-h-screen">
-      <div className='bg-base-100 shadow-lg'  >
       <Diashow />
-      </div>
       <Grid />
       <Overview />
       <Footer />
