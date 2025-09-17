@@ -1,10 +1,11 @@
 import '../../css/style.css';
 export default function grid() {
   return (
-    <div className='bg-base-200 rounded-b-lg shadow-md '>
-    <div class="pb-21 mx-auto max-w-6xl md:grid grid-flow-col max-h-200 grid-rows-3 grid-cols-3 gap-4 m-15 inline">
+    <div className='bg-slate-300 w-full z-2 relative  '>
+    <div className='  rounded-b-lg shadow-lg bg-base-300'>
+    <div class="p-5  pb-20 pt-20 mx-auto max-w-6xl md:grid grid-flow-col max-h-200 grid-rows-3 grid-cols-3 gap-4  inline">
  
-     <div className="card  row-span-1 col-span-1">
+     <div className="card  bg-base-200  row-span-1 col-span-1">
   <div className="card-body ">
     <h2 className="card-title">Card Title</h2>
     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
@@ -12,7 +13,7 @@ export default function grid() {
  
 </div>
 
- <div className="card   row-span-2 col-span-1">
+ <div className="card bg-base-200  row-span-2 col-span-1">
   <div className="card-body">
     <h2 className="card-title">Card Title</h2>
     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
@@ -21,7 +22,7 @@ export default function grid() {
 </div>
 
 
-        <div className="card  row-span-2 col-span-2">
+        <div className="card bg-base-200 row-span-2 col-span-2">
   <div className="card-body ">
     <h2 className="card-title">Card Title</h2>
     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
@@ -38,7 +39,7 @@ export default function grid() {
 
    
 
-<div className="card row-span-1 col-span-2">
+<div className="card bg-base-200 row-span-1 col-span-2">
   <div className="card-body ">
     <h2 className="card-title">Card Title</h2>
     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
@@ -53,6 +54,6 @@ export default function grid() {
 
   </div>
   </div>
-
+</div>
 
   );}

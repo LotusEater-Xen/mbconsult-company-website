@@ -13,8 +13,8 @@ import { faHome,
 export default function Navbar() {
 
   return (
-
-<div className=" navbar max-w-full" data-theme="nord">
+<div className='bg-base-200'>
+<div className="z-10 relative bg-base-100 shadow-lg navbar max-w-full rounded-b-lg" data-theme="nord">
   <div className="ml-5 navbar-start ">
   <img src={logo} className=' max-h-12'/>
   <div className='pl-5 font-medium text-lg hidden lg:flex'>MBConsultMe.Gmbh</div>
@@ -43,6 +43,7 @@ export default function Navbar() {
   </div>
     <Link to={"services"} className='lg:flex hidden btn max-w-50 border-2 border-solid border-gray-300 flex'>services →</Link> 
   </div>
+</div>
 </div>
 
   );

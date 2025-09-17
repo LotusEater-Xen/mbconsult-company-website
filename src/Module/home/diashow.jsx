@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 
 export default function Diashow() {
   return (
-    <div className=" mx-auto bg-base-200">
+    <div className="z-5 relative p-10 pb-15 pt-15 bg-base-200 shadow-xl rounded-b-lg">
+    <div className="mx-auto max-w-7xl ">
     
-        <div className=" rounded-b-lg w-full  object-cover carousel carousel-center ">
-          <div id="slide1" className="carousel-item w-full">
+        <div className=" rounded-lg   w-full carousel carousel-center ">
+          <div id="slide1" className="carousel-item min-h-140 w-full ">
             <div
-  className="hero min-h-140"
+  className="hero"
   style={{
     backgroundImage:
       "url(https://cdn.pixabay.com/photo/2020/04/01/12/46/city-4991094_1280.jpg)",
@@ -29,7 +30,7 @@ export default function Diashow() {
           </div>
           <div id="slide2" className="carousel-item w-full">
             <div
-  className="hero  min-h-140"
+  className="hero  "
   style={{
     backgroundImage:
       "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
@@ -47,6 +48,7 @@ export default function Diashow() {
 </div>
 </div>
         </div> 
+      </div>
       </div>
 
   );
