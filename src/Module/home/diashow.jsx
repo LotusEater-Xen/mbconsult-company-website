@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export default function Diashow() {
   return (
-    <div className=" mx-auto">
+    <div className=" mx-auto bg-base-200">
     
-        <div className=" w-full rounded-b-lg shadow-md object-cover carousel carousel-center ">
+        <div className=" rounded-b-lg w-full  object-cover carousel carousel-center ">
           <div id="slide1" className="carousel-item w-full">
             <div
   className="hero min-h-140"

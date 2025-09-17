@@ -4,11 +4,12 @@ import { BrowserRouter as Router,
          Routes
       } from 'react-router-dom';
 import Navbar from './Module/global/navbar.jsx'
+import Footer from './Module/global/footer.jsx'
 
 import Home from './pages/Home';
 import Career from './pages/Career';
 import Contact from './pages/Contact';
-import Services from './pages/Services.jsx';
+import Services from './pages/Services';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/services" element={<Services />} />
             </Routes>
+       <Footer />
+     
         </Router>
   );
 }
