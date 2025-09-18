@@ -1,4 +1,3 @@
-import '../../css/style.css';
 import logo from '../../sources/logo.jpg'
 export default function Footer() {
   return (

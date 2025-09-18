@@ -1,4 +1,3 @@
-import '../../css/style.css';
 import logo from '../../../MBCMe.svg';
 import { Link,
          useLocation

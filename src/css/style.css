@@ -43,6 +43,7 @@
   --inset-shadow-md: inset 0 2px 3px rgba(255, 255, 255, 0.25); 
   
 }
+
 @layer components {
   .highlighter {
     @apply rounded-md;
@@ -77,6 +78,6 @@
  
  
 }
-.carousel {
-  scroll-snap-type: x mandatory; /* Only horizontal snapping */
-}
+
+
+

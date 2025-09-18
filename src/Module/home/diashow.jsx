@@ -1,12 +1,11 @@
-import "../../css/style.css";
 import { Link } from 'react-router-dom';
 
 export default function Diashow() {
   return (
-    <div className="z-5 relative p-10 pb-15 pt-15 bg-base-200 shadow-xl rounded-b-lg">
+    <div className="z-5 relative pb-15 pt-0 bg-base-200 shadow-xl rounded-b-lg">
     <div className="mx-auto max-w-7xl ">
     
-        <div className=" rounded-lg   w-full carousel carousel-center ">
+        <div className=" rounded-b-lg   w-full carousel carousel-center ">
           <div id="slide1" className="carousel-item min-h-140 w-full ">
             <div
   className="hero"

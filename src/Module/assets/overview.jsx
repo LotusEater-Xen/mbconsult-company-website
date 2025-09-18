@@ -1,5 +1,3 @@
-
-
 const Kurzübersicht = () =>{
     return(
         <div className="w-full shadow-lg ">
