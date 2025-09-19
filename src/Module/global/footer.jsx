@@ -1,7 +1,7 @@
 import logo from "../../sources/logo.jpg";
 export default function Footer() {
   return (
-    <footer className="z-0 relative bg-slate-300 footer sm:footer-horizontal text-base-content pt-10 rounded-b-lg ">
+    <footer className=" z-0 relative bg-slate-300 footer sm:footer-horizontal text-base-content pt-10 rounded-b-lg ">
       <aside>
         <p>
           ACME Industries Ltd.
@@ -9,7 +9,7 @@ export default function Footer() {
           Providing reliable tech since 1992
         </p>
       </aside>
-      <nav>
+      <nav className="">
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">Branding</a>
         <a className="link link-hover">Design</a>

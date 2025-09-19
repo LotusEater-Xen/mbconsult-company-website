@@ -67,30 +67,50 @@ export default function Navbar() {
           </ul>
         </div>
         <div className=" navbar-end ">
-          <div className="lg:hidden drawer">
+          <div className="lg:hidden drawer  drawer-end">
             <input id="my-drawer" type="checkbox" className="drawer-toggle " />
             <div className="drawer-content ">
               <label htmlFor="my-drawer" className="btn float-right">
                 <FontAwesomeIcon icon={faBars} />
               </label>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side ">
               <label
                 htmlFor="my-drawer"
                 aria-label="close sidebar"
-                className="drawer-overlay "
+                className="drawer-overlay  "
               ></label>
 
-              <ul className="menu bg-base-200 text-base-content min-h-full w-full p-4">
-                <label htmlFor="my-drawer" className="w-5 btn float-right">
-                  <FontAwesomeIcon icon={faXmark} />
-                </label>
-                <li>
-                  <a>Sidebar Item 1</a>
-                </li>
-                <li>
-                  <a>Sidebar Item 2</a>
-                </li>
+              <ul className="menu bg-base-200 text-base-content min-h-full w-screen md:w-sm p-4 pb-0 pt-0 flex">
+                <div className="mt-2">
+                  <div className="float-left text-2xl font-semibold">Menu</div>
+                  <label htmlFor="my-drawer" className="btn float-right">
+                    <FontAwesomeIcon icon={faXmark} />
+                  </label>
+                </div>
+                <div className="divider "></div>
+                <div className=" max-w-6xl">
+                  <strong>Main Pages</strong>
+                  <li>
+                    <a>Home</a>
+                  </li>
+                  <li>
+                    <a>Contact</a>
+                  </li>
+
+                  <strong>Services</strong>
+                  <li>
+                    <a>Energy Consulting</a>
+                  </li>
+                  <li>
+                    <a>Software</a>
+                  </li>
+
+                  <strong>Other</strong>
+                  <li>
+                    <a>Impressum</a>
+                  </li>
+                </div>
               </ul>
             </div>
           </div>
