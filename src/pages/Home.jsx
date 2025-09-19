@@ -10,8 +10,10 @@ const Home = () => {
 //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
   return (
       <body data-theme="nord" className="bg-base-300 max-w-full ">
+      <div className='min-h-screen'>
       <Diashow />
       <Grid />
+      </div>
     </body>
   );
 };
