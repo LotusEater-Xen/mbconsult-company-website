@@ -1,7 +1,8 @@
 import logo from "../../sources/logo.jpg";
 export default function Footer() {
   return (
-    <footer className=" z-0 relative bg-slate-300 footer sm:footer-horizontal text-base-content pt-10 rounded-b-lg ">
+    
+    <footer className="pl-5 pr-5 z-0 relative bg-slate-300 footer sm:footer-horizontal text-base-content pt-10 pb-5 ">
       <aside>
         <p>
           ACME Industries Ltd.

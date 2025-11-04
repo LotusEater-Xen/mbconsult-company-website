@@ -11,7 +11,7 @@ import {
 
 export default function Navbar() {
   return (
-    <div className="bg-base-200">
+    <div className="bg-base-100">
       <div
         className="z-10 relative bg-base-100 shadow-lg navbar max-w-full rounded-b-lg"
         data-theme="nord"
@@ -92,23 +92,44 @@ export default function Navbar() {
                 <div className=" max-w-6xl">
                   <strong>Main Pages</strong>
                   <li>
+                    <Link
+              to={""}>
                     <a>Home</a>
+                    </Link>
                   </li>
                   <li>
+                    <Link
+              to={"services"}>
+                    <a>Services</a>
+                    </Link>
+                  </li>
+                  <li>
+                      <Link
+              to={"contact"}>
                     <a>Contact</a>
+                    </Link>
                   </li>
 
                   <strong>Services</strong>
                   <li>
+                    <Link
+              to={"consulting"}>
                     <a>Energy Consulting</a>
+                    </Link>
                   </li>
                   <li>
+                       <Link
+              to={"software"}>
                     <a>Software</a>
+                    </Link>
                   </li>
 
                   <strong>Other</strong>
                   <li>
+                    <Link
+              to={"impressum"}>
                     <a>Impressum</a>
+                    </Link>
                   </li>
                 </div>
               </ul>

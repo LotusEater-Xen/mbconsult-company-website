@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
 
 export default function Diashow() {
+  
   return (
-    <div className="z-5 relative pb-15 pt-15 bg-base-200 shadow-xl rounded-b-lg">
+    <div className="bg-base-200">
+      
+    <div className="z-5 relative pb-15 pt-15 bg-base-100 shadow-xl rounded-b-lg">
+
+
       <div className="mx-auto max-w-7xl ">
         <div className=" rounded-lg   w-full carousel carousel-center ">
           <div id="slide1" className="carousel-item min-h-140 w-full ">
@@ -48,6 +53,7 @@ export default function Diashow() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

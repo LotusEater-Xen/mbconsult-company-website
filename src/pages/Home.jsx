@@ -1,5 +1,7 @@
 import Grid from '../Module/home/grid';
 import Diashow from '../Module/home/diashow';
+import Diashow2 from '../Module/home/diashow2';
+import Contact from '../Module/home/contact';
 import '../css/style.css'; // Import the CSS for this component
 
 
@@ -12,7 +14,14 @@ const Home = () => {
       <body data-theme="nord" className="bg-base-300 max-w-full ">
       <div className='min-h-screen'>
       <Diashow />
+    
+      <Diashow2 />
+      
       <Grid />
+      <Contact />
+        
+     
+     
       </div>
     </body>
   );
