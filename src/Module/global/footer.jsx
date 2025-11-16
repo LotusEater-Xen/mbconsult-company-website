@@ -1,35 +1,39 @@
-import logo from "../../sources/logo.jpg";
+import logo from "../../../MBCMe.svg";
 export default function Footer() {
   return (
     
     <footer className="pl-5 pr-5 z-0 relative bg-slate-300 footer sm:footer-horizontal text-base-content pt-10 pb-5 ">
       <aside>
+    
         <p>
-          ACME Industries Ltd.
+        <div className=" navbar-start my-auto w-96">
+              
+                 <div className="  font-[Montserrat]  sm:text-2xl lg:text-2xl">
+                  
+                   MB | Consult.Me   </div>  
+                   
+                   <img src={logo} className="max-h-8  pl-1 pb-2 sm:max-h-9" />
+                    <div className="pl-1 font-[Montserrat] text-[5px] pt-2">GmbH</div>
+                  </div>
           <br />
-          Providing reliable tech since 1992
+          
         </p>
       </aside>
       <nav className="">
-        <h6 className="footer-title">Services</h6>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
+        <h6 className="footer-title link link-hover">Impressum</h6>
+      
       </nav>
+
+      <nav className="">
+        <h6 className="footer-title link link-hover">Data</h6>
+      
+      </nav>
+
       <nav>
-        <h6 className="footer-title">Company</h6>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        <h6 className="footer-title link link-hover">AGB</h6>
+
       </nav>
-      <nav>
-        <h6 className="footer-title">Legal</h6>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
-      </nav>
+    
     </footer>
   );
 }

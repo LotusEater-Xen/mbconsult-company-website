@@ -38,6 +38,23 @@
   --noise: 0;
 }
 
+@font-face{
+  font-family: "Montserrat-Bold";
+  src:local("MontserratAlternates-Bold"),
+  url('src/sources/fonts/Montserrat Alternates/Montserrat_Alternates/MontserratAlternates-Bold.ttf') 
+}
+
+@font-face{
+  font-family: "Montserrat";
+  src:local("MontserratAlternates-Regular"),
+  url('src/sources/fonts/Montserrat Alternates/Montserrat_Alternates/MontserratAlternates-Regular.ttf') 
+}
+
+@font-face{
+  font-family: "Montserrat-Medium";
+  src:local("MontserratAlternates-Medium"),
+  url('src/sources/fonts/Montserrat Alternates/Montserrat_Alternates/MontserratAlternates-Medium.ttf') 
+}
 
 @theme {
   --inset-shadow-md: inset 0 2px 3px rgba(255, 255, 255, 0.25); 

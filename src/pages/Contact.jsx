@@ -1,6 +1,6 @@
 //import './ContactPage.css'; // You can create a separate CSS for ContactPage
 import Text from '../Module/assets/text';
-import '../css/style.css';
+
 import '../css/style.css'; // Import the CSS for this component
 
 

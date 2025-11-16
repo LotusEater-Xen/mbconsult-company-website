@@ -1,15 +1,15 @@
 export default function grid() {
   return (
-    <div className="bg-slate-300 w-full relative  ">
+    <div className="bg-base-300 w-full relative  ">
 
       
-      <div className="bg-base-200 rounded-b-lg shadow-lg ">
+      <div className="bg-base-200 rounded-b-lg shadow-xl ">
 
         
      
-     <div className="z-3  mb-20 mx-auto max-w-7xl ">
+     <div className="  mb-20 mx-auto max-w-7xl ">
     <div className='text-center'>
-        <h1 className='font-semibold text-3xl'>Weiteres...</h1>
+        <h1 className='font-[Montserrat] text-3xl'>Weiteres...</h1>
 
      
 

@@ -16,13 +16,23 @@ export default function Navbar() {
         className="z-10 relative bg-base-100 shadow-lg navbar max-w-full rounded-b-lg"
         data-theme="nord"
       >
-        <div className="navbar-start ">
-          <img src={logo} className=" max-h-12" />
-          <div className="pl-5 font-medium text-lg hidden lg:flex">
-            MBConsultMe.Gmbh
-          </div>
-        </div>
-        <div className="navbar-center ">
+        <div className=" navbar-start w-96">
+       
+          <div className="  font-[Montserrat]  sm:text-2xl lg:text-2xl">
+           
+            MB | Consult.Me   </div>  
+            
+            <img src={logo} className="max-h-8  pl-1 pb-2 sm:max-h-9" />
+             <div className="pl-1 font-[Montserrat] text-[5px] pt-2">GmbH</div>
+           </div>
+           
+            
+          
+       
+    
+          
+      
+        <div className="navbar-center hidden">
           <ul className="menu menu-horizontal px-1 lg:flex hidden">
             <Link
               to={""}
@@ -66,7 +76,7 @@ export default function Navbar() {
             </Link>
           </ul>
         </div>
-        <div className=" navbar-end ">
+        <div className=" navbar-end hidden ">
           <div className="lg:hidden drawer  drawer-end">
             <input id="my-drawer" type="checkbox" className="drawer-toggle " />
             <div className="drawer-content ">
