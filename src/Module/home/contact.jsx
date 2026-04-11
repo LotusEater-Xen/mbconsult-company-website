@@ -10,6 +10,7 @@ export default function contact() {
      <div className="mt-10 mb-10 mx-auto max-w-7xl ">
     <div className='text-center'>
         <h1 className='font-[Montserrat] text-3xl'>Kontaktieren Sie uns</h1>
+        <a href="mailto:max.mustermann@example.com?subject=zd9wzd9azd9saz9dzsa"> lol</a>
 
      
 

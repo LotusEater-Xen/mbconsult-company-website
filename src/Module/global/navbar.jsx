@@ -12,7 +12,7 @@ import {
 export default function Navbar() {
   return (
     <div className="bg-base-100">
-      <div
+      <a href="/"
         className="z-10 relative bg-base-100 shadow-lg navbar max-w-full rounded-b-lg"
         data-theme="nord"
       >
@@ -146,7 +146,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }

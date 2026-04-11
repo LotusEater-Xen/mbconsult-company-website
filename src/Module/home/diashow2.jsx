@@ -1,29 +1,60 @@
 export default function Diashow() {
   return (
     <div className="pb-20 pt-20   bg-base-200 ">
+
+
+
+ {/* //UNSERE DIENSTLEISTUNGEN DIV /////////////////////////////////// */ }
       <div className="relative  pb-20">
-        <div className="mx-auto max-w-4xl pl-5 pr-5 ">
-          <div className="text-center">
-            <h1 className="font-[Montserrat] text-3xl">
+      
+         
+            <h1 className="header">
               Unsere Dienstleistungen
             </h1>
-
-            <h2 className="font-[Montserrat-Medium] pt-10 text-sm text-balance">
-              Wir besitzen ein enormes Portfolio an Nutzerfreundlichen
-              Effizienzlösunge die sich ega kompliziert anhören und ganz wichtig
-              für Sie sind. Andernfalls ist Ihre Firma so ziemlich dem Untergang
-              geweiht. Sie sollten sich auf die Zukunft vorbereiten alter Mann
-              denn es ist Zeit sie mit offenen Armen zu empfangen.
+           
+ <div className="text-center">
+            <h2 className="content pt-10">
+           
+           Unser Dienstleistungsbereich 
+           liegt in der Entwicklung von effizienten, wirtschaftlichen und nachhaltigen <br />Energiemanagementsystemen(EnMS).<br />
+            <br />
+            
+             Seit 2008 begleiten wir Firmen in der Etablierung/Optimierung der Grundbausteine  <br />
+               Energieeffizienz, Energiemonitoring, Managementsysteme, Projektmanagement und Prozessoptimierung 
+               <br />
+               zur Ausschöpfung des betrieblichen Potenzials.
+            
+           
+             
             </h2>
           </div>
-        </div>
+       
       </div>
 
-      <div className=" inset-shadow-[0_5px_25px_rgba(0,0,0,0.15)] bg-base-300 mx-auto max-w-6xl rounded-lg">
-        <div className=" md:carousel  w-full">
+{/* DIV DIASHOW 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+
+
+
+
+      <div className="  mx-auto max-w-7xl">
+        <div className=" rounded-lg inset-shadow-[0_5px_25px_rgba(0,0,0,0.15)] bg-base-300 md:carousel  w-full">
+
+          {/* 
+          /////////////////////////////////////////
+          // SLIDE A                             //
+          /////////////////////////////////////////
+*/}
+
           <div id="slideA" className="carousel-item relative w-full">
-            <div className="inline max-w-full mx-auto md:h-100 md:grid grid-cols-3 grid-rows-1 gap-0">
-              <div className="m-5 md:mr-2 card bg-base-200 shadow-md md:h-auto h-100">
+              <div className="hidden  md:flex">
+              <a className="btn">{/* href="#slideC"*/}
+                {/*❮*/}
+              </a>
+              </div>
+            <div className="diashow2-grid">
+
+              
+              <a href="Managementsysteme" className=" card  card-diashow2  m-5 md:mr-2 ">
                 <figure>
                   <img
                     src="https://cdn.pixabay.com/photo/2017/04/27/10/37/counter-2265065_1280.jpg"
@@ -32,7 +63,89 @@ export default function Diashow() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
+                  <h2 className="card-title font-[Montserrat]">Integrierte Managementsysteme</h2>
+                 
+                  <p className="describer">
+DIN EN ISO 9001 14001 140XX 50001
+                  </p>
+                  <div className="card-actions justify-end">
+                     <div className="badge badge-primary badge-outline">Qualität</div>
+                       <div className="badge badge-primary badge-outline">Nachhaltigkeit</div>
+                           <div className="badge badge-primary badge-outline">Energie</div>
+                            
+                   
+                  </div>
+                </div>
+              </a>
+
+              <a href="Prozessoptimierung" className="  card card-diashow2 m-5 md:ml-2 md:mr-2 ">
+                <figure>
+                  <img
+                    src="https://cdn.pixabay.com/photo/2017/08/17/13/14/motorcycle-2651286_1280.jpg"
+                    alt="Shoes"
+                  />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title font-[Montserrat]">Prozessoptimierung</h2>
+                  <p className="describer">
+                 Analyse, Bewertung und Optimierung.
+                  </p>
+                  <div className="card-actions justify-end">
+                    <div className="badge badge-primary badge-outline">Planning</div>
+                    <div className="badge badge-primary badge-outline">Consulting</div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="Datenbanken" className=" card card-diashow2 m-5 md:ml-2">
+                <figure>
+                  <img
+                    src="https://cdn.pixabay.com/photo/2023/07/10/13/41/technology-8118382_1280.jpg"
+                    alt="Server"
+                  />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title font-[Montserrat]">Innovative Datenbanklösungen</h2>
+                  <p className="describer">
+                   Vernetzung, Standardisierung und Angleichung.
+                  </p>
+                  <div className="card-actions justify-end">
+                    <div className="badge badge-primary badge-outline">Strukturierung</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+             <div className="hidden md:flex">
+              <a  className="btn ">{/*href="#slideB"*/}
+                {/* ❯*/}
+              </a>
+          </div>
+          </div>
+
+        {/*
+            /////////////////////////////////////////
+           // SLIDE B                              /
+          /////////////////////////////////////////
+
+       
+          <div id="slideB" className="carousel-item relative w-full">
+             <div className="hidden md:flex ">
+              <a href="#slideA" className="btn">
+                ❮
+              </a>
+              </div>
+            <div className="diashow2-grid">
+              <div className="card card-diashow2 m-5 md:mr-2 ">
+                <figure>
+                  <img
+                    src="https://cdn.pixabay.com/photo/2017/04/27/10/37/counter-2265065_1280.jpg"
+                    alt="Shoes"
+                    className=" "
+                  />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title font-[Montserrat]">Card Title</h2>
                   <p>
                     A card component has a figure, a body part, and inside body
                     there are title and actions parts
@@ -44,7 +157,7 @@ export default function Diashow() {
                 </div>
               </div>
 
-              <div className="m-5 md:ml-2 md:mr-2 card bg-base-200  shadow-md md:h-auto h-100">
+              <div className=" card card-diashow2 m-5 md:ml-2 md:mr-2">
                 <figure>
                   <img
                     src="https://cdn.pixabay.com/photo/2017/08/17/13/14/motorcycle-2651286_1280.jpg"
@@ -52,7 +165,7 @@ export default function Diashow() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
+                  <h2 className="card-title font-[Montserrat]">Card Title</h2>
                   <p>
                     A card component has a figure, a body part, and inside body
                     there are title and actions parts
@@ -64,7 +177,7 @@ export default function Diashow() {
                 </div>
               </div>
 
-              <div className="m-5 md:ml-2 card bg-base-200 shadow-md md:h-auto h-100">
+              <div className="card card-diashow2 m-5 md:ml-2">
                 <figure>
                   <img
                     src="https://cdn.pixabay.com/photo/2016/06/12/20/27/macro-1452987_1280.jpg"
@@ -72,7 +185,7 @@ export default function Diashow() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
+                  <h2 className="card-title font-[Montserrat]">Card Title</h2>
                   <p>
                     A card component has ihcidhvidgvhvoufhv9rehvrehvrehvirehv a
                     figure, a body part, and inside body there are title and
@@ -85,18 +198,30 @@ export default function Diashow() {
               </div>
             </div>
 
-            <div className="hidden md:flex absolute left-0 right-0 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slideA" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slideC" className="btn btn-circle">
+           
+              <a href="#slideC" className="btn ">
                 ❯
               </a>
             </div>
-          </div>
+       
+
+
+          {/* 
+            /////////////////////////////////////////
+           // SLIDE C                              /
+          /////////////////////////////////////////
+
+          
           <div id="slideC" className="carousel-item relative w-full">
-            <div className="inline max-w-full mx-auto md:h-100 md:grid grid-cols-3 grid-rows-1 gap-0">
-              <div className="m-5 md:mr-2 card bg-base-200 shadow-md md:h-auto h-100">
+
+            
+            <div className="hidden md:flex ">
+              <a href="#slideB" className="btn ">
+                ❮
+              </a>
+              </div>
+            <div className="diashow2-grid">
+              <div className="card card-diashow2 m-5 md:mr-2">
                 <figure>
                   <img
                     src="https://cdn.pixabay.com/photo/2017/04/27/10/37/counter-2265065_1280.jpg"
@@ -105,7 +230,7 @@ export default function Diashow() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
+                  <h2 className="card-title font-[Montserrat]">Card Title</h2>
                   <p>
                     A card component has a figure, a body part, and inside body
                     there are title and actions parts
@@ -117,7 +242,7 @@ export default function Diashow() {
                 </div>
               </div>
 
-              <div className="m-5 md:ml-2 md:mr-2 card bg-base-200 shadow-md md:h-auto h-100">
+              <div className="card card-diashow2 m-5 md:ml-2 md:mr-2">
                 <figure>
                   <img
                     src="https://cdn.pixabay.com/photo/2017/08/17/13/14/motorcycle-2651286_1280.jpg"
@@ -125,7 +250,7 @@ export default function Diashow() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
+                  <h2 className="card-title font-[Montserrat]">Card Title</h2>
                   <p>
                     A card component has a figure, a body part, and inside body
                     there are title and actions parts
@@ -137,7 +262,7 @@ export default function Diashow() {
                 </div>
               </div>
 
-              <div className="m-5 md:ml-2 card bg-base-200 shadow-md md:h-auto h-100">
+              <div className="card card-diashow2 m-5 md:ml-2">
                 <figure>
                   <img
                     src="https://cdn.pixabay.com/photo/2016/06/12/20/27/macro-1452987_1280.jpg"
@@ -145,7 +270,7 @@ export default function Diashow() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
+                  <h2 className="card-title font-[Montserrat]">Card Title</h2>
                   <p>
                     A card component has ihcidhvidgvhvoufhv9rehvrehvrehvirehv a
                     figure, a body part, and inside body there are title and
@@ -158,88 +283,11 @@ export default function Diashow() {
               </div>
             </div>
 
-            <div className="hidden md:flex absolute left-0 right-0 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slideB" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slideD" className="btn btn-circle">
+              <a href="#slideA" className="btn ">
                 ❯
               </a>
             </div>
-          </div>
-          <div id="slideD" className="carousel-item relative w-full">
-            <div className="inline max-w-full mx-auto md:h-100 md:grid grid-cols-3 grid-rows-1 gap-0">
-              <div className="m-5 md:mr-2 card bg-base-200 shadow-md md:h-auto h-100">
-                <figure>
-                  <img
-                    src="https://cdn.pixabay.com/photo/2017/04/27/10/37/counter-2265065_1280.jpg"
-                    alt="Shoes"
-                    className=" "
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
-                  <p>
-                    A card component has a figure, a body part, and inside body
-                    there are title and actions parts
-                  </p>
-                  <div className="card-actions justify-end">
-                    <div className="badge badge-outline">Energy</div>
-                    <div className="badge badge-outline">Software</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="m-5 md:ml-2 md:mr-2 card bg-base-200  shadow-md md:h-auto h-100">
-                <figure>
-                  <img
-                    src="https://cdn.pixabay.com/photo/2017/08/17/13/14/motorcycle-2651286_1280.jpg"
-                    alt="Shoes"
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
-                  <p>
-                    A card component has a figure, a body part, and inside body
-                    there are title and actions parts
-                  </p>
-                  <div className="card-actions justify-end">
-                    <div className="badge badge-outline">Planning</div>
-                    <div className="badge badge-outline">Consulting</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="m-5 md:ml-2 card bg-base-200 shadow-md md:h-auto h-100">
-                <figure>
-                  <img
-                    src="https://cdn.pixabay.com/photo/2016/06/12/20/27/macro-1452987_1280.jpg"
-                    alt="Shoes"
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="card-title">Card Title</h2>
-                  <p>
-                    A card component has ihcidhvidgvhvoufhv9rehvrehvrehvirehv a
-                    figure, a body part, and inside body there are title and
-                    actions parts
-                  </p>
-                  <div className="card-actions justify-end">
-                    <div className="badge badge-outline">Management</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="hidden md:flex absolute left-0 right-0 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slideC" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slideA" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
+           */}
         </div>
       </div>
       <div></div>

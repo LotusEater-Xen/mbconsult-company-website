@@ -74,22 +74,46 @@
   }
 }
 
+/*UNIVERSAL STYLE POINTS */
+
+.header{
+  @apply text-center text-3xl mx-auto max-w-4xl font-[Montserrat];
+}
+.content{
+  @apply  text-sm text-balance;
+}
+/* DIASHOW 2 SPECIFIC STYLING CHOICES */
+.card-diashow2 {
+  @apply shadow-md bg-base-200  h-100 md:h-auto;
+}
+
+.diashow2-grid {
+  @apply inline max-w-full mx-auto md:h-100 md:grid grid-cols-3 grid-rows-1 gap-0;
+
+}
+.describer {
+  @apply italic text-primary;
+
+}
 @utility btn {
-  @apply rounded-full;
-  @apply border-none;
-  @apply shadow-md;
-  @apply inset-shadow-md;
-  @apply shadow-[inset_-4px_-4px_8px_rgba(0,0,0,0.1),inset_2px_2px_2px_rgba(255,255,255,0.3)];
-  @apply shadow-[4px_4px_12px_rgba(0,0,0,0.1)];
-  @apply m-4 mb-0 mt-0 pl-6 pr-6;
-  @apply hover:shadow-[inset_4px_4px_8px_rgba(0,0,0,0.1),inset_-2px_-2px_8px_rgba(255,255,255,0.1)];
+  @apply bg-transparent border-none;
+  @apply h-100;
+  @apply hover:text-lg;
+  
 }
 @utility card {
- 
+  @apply bg-base-100;
+  @apply row-span-2;
+  @apply col-span-1;
+  @apply h-100;
+  @apply md:h-full;
+  @apply mb-10;
+  @apply md:mb-0;
   @apply border-none;
   @apply bg-base-100;
   @apply shadow-md;
   @apply inset-shadow-md;
+  @apply hover:bg-base-300;
   @apply shadow-[inset_-4px_-4px_8px_rgba(0,0,0,0.1),inset_2px_2px_2px_rgba(255,255,255,0.3)];
   @apply shadow-[4px_4px_12px_rgba(0,0,0,0.1)];
  
