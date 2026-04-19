@@ -10,20 +10,22 @@ export default function Diashow() {
           <div className="bg-base-200 pt-15 pb-5 ">
 
             <h1 className="header">
-              EDL-G Berichte
+            Fördermittelberatung für Nichtwohngebäude (NWG) und Prozessanlagen
             </h1>
             <h2 className=" content pt-10 max-w-4xl mx-auto  ">
+Wir unterstützen Sie bei der Identifikation und Nutzung geeigneter Förderprogramme – von BAFA über KfW bis hin zu EU-Förderungen.
 
-              Wir erstellen rechtssichere Energieaudits und Berichte nach dem Energiedienstleistungsgesetz (EDL-G) – insbesondere für kleine und mittlere Unternehmen.
+Unsere Fördermittelberatung umfasst sowohl Nichtwohngebäude (NWG) als auch industrielle Prozessanlagen und ist vollständig auf Ihre Investitionsvorhaben abgestimmt.
 
-Dabei legen wir großen Wert auf:
+Unsere Leistungen:
 
-Vollständige und normkonforme Datenerhebung
-Transparente Darstellung der Energieverbräuche
-Klare Identifikation wirtschaftlicher Einsparmaßnahmen
-Nachvollziehbare Dokumentation für Behörden und Förderstellen
+Auswahl passender Förderprogramme
+Technische und wirtschaftliche Bewertung der Maßnahmen
+Erstellung förderfähiger Konzepte und Nachweise
+Unterstützung oder vollständige Übernahme der Antragstellung
+Begleitung während der Projektumsetzung
 
-Durch unsere praxisorientierte Herangehensweise erhalten Sie nicht nur einen Bericht zur Pflichterfüllung, sondern eine fundierte Entscheidungsgrundlage für zukünftige Investitionen.
+Durch unsere Erfahrung stellen wir sicher, dass Sie Förderpotenziale optimal ausschöpfen und Investitionsrisiken minimieren.
 
 
             </h2>

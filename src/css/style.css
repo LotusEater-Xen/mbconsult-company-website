@@ -87,8 +87,9 @@
   @apply shadow-md bg-base-200  h-100 md:h-auto;
 }
 
+/*GRID COLS ADDED SEPARATELY!!!*/
 .diashow2-grid {
-  @apply inline max-w-full mx-auto md:h-100 md:grid grid-cols-3 grid-rows-1 gap-0;
+  @apply inline max-w-full mx-auto md:h-100 md:grid grid-rows-1 gap-0;
 
 }
 .describer {
