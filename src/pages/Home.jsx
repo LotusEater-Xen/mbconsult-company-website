@@ -1,7 +1,4 @@
-import Grid from "../Module/home/grid";
-import Diashow from "../Module/home/diashow";
-import Diashow2 from "../Module/home/diashow2";
-import Contact from "../Module/home/contact";
+import {Grid, Diashow, Hero, Contact} from '../Module/home/homeindex'
 import "../css/style.css"; // Import the CSS for this component
 import "../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Regular.ttf";
 import "../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Bold.ttf";
@@ -13,10 +10,10 @@ const Home = () => {
   return (
     <body data-theme="nord" className="bg-base-300 max-w-full ">
       <div className="min-h-screen">
-        <Diashow />
-        <Diashow2 />
-        <Grid />
-        <Contact />
+     <Hero />
+     <Diashow />
+     <Grid />
+     <Contact />
       </div>
     </body>
   );

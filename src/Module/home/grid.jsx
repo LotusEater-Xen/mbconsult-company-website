@@ -1,4 +1,4 @@
-export default function grid() {
+export default function Grid() {
   return (
     <div className="bg-base-300 w-full relative  ">
 
