@@ -3,15 +3,9 @@ import { BrowserRouter as Router,
          Route, 
          Routes
       } from 'react-router-dom';
-import Navbar from './Module/global/navbar.jsx'
-import Footer from './Module/global/footer.jsx'
-
-import Home from './pages/Home';
-      import Managementsysteme from './pages/Managementsysteme.jsx';
-import Career from './pages/Career';
-import Contact from './pages/Contact';
-import Services from './pages/Services';
-
+import {Navbar,Footer} from './Module/Global/globalindex.jsx';
+import {Home,Managementsysteme,Prozessoptimierung,Energieeffizienzberatung,Transformationskonzepte} from './pages/pagesindex.jsx';
+     
 function App() {
   return (
     
@@ -20,9 +14,9 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Managementsysteme" element={<Managementsysteme />}/>
-                <Route path="/career" element={<Career />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/services" element={<Services />} />
+                <Route path="/Prozessoptimierung" element={<Prozessoptimierung />}/>
+                <Route path="/Energieeffizienzberatung" element={<Energieeffizienzberatung />}/>
+                <Route path="/Transformationskonzepte" element={<Transformationskonzepte />}/>
             </Routes>
        <Footer />
      

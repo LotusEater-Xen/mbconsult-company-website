@@ -1,9 +1,9 @@
 
-import Body from "../Module/Managementsysteme/body";
+import Body from "../../Module/diashow/Managementsysteme/body";
 
-import "../css/style.css"; // Import the CSS for this component
-import "../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Regular.ttf";
-import "../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Bold.ttf";
+import "../../css/style.css"; // Import the CSS for this component
+import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Regular.ttf";
+import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Bold.ttf";
 
 const Home = () => {
   //Lukas Tip: You can change the theming, try swapping the data-theme for light/dark !
