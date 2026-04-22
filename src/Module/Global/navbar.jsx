@@ -18,7 +18,7 @@ export default function Navbar() {
       >
         <a href="/" className=" navbar-start w-96">
        
-          <div className="  font-[Montserrat]  sm:text-2xl lg:text-2xl">
+          <div className="  font-[Montserrat]  text-[15px] lg:text-[20px]">
            
             MB | Consult.Me   </div>  
             
@@ -78,8 +78,7 @@ export default function Navbar() {
         </div>
        
         <div className=" navbar-end w-full">
-         <a href="Impressum" className="hidden lg:flex font-[Montserrat] mr-5">Kontakt ❯</a>
-          <div className="lg:hidden drawer  drawer-end">
+          <div className=" drawer  drawer-end">
             <input id="my-drawer" type="checkbox" className="drawer-toggle " />
             <div className="drawer-content ">
               <label htmlFor="my-drawer" className="float-right">

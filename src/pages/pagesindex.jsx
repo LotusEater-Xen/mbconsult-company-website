@@ -6,6 +6,7 @@ import Home from './Home.jsx';
       import Transformationskonzepte from './diashow/Transformationskonzepte.jsx';
       import EDLGBerichte from './diashow/EDLGBerichte.jsx';
       import Fördermittelberatung from './diashow/Fördermittelberatung.jsx';
+      import Projektmanagement from './diashow/Projektmanagement.jsx';
 import Contact from './Contact.jsx';
 
 export{ Home,
@@ -15,6 +16,7 @@ export{ Home,
          Transformationskonzepte,
          Fördermittelberatung,
          EDLGBerichte,
+         Projektmanagement,
          Contact
       
 }

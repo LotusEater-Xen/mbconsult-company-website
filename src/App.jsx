@@ -4,7 +4,7 @@ import { BrowserRouter as Router,
          Routes
       } from 'react-router-dom';
 import {Navbar,Footer} from './Module/Global/globalindex.jsx';
-import {Home,Managementsysteme,Prozessoptimierung,Energieeffizienzberatung,Transformationskonzepte,EDLGBerichte,Fördermittelberatung, Contact} from './pages/pagesindex.jsx';
+import {Home,Managementsysteme,Prozessoptimierung,Energieeffizienzberatung,Transformationskonzepte,EDLGBerichte,Fördermittelberatung, Projektmanagement, Contact} from './pages/pagesindex.jsx';
      
 function App() {
   return (
@@ -20,6 +20,8 @@ function App() {
                 <Route path="/Transformationskonzepte" element={<Transformationskonzepte />}/>
                 <Route path="/Fördermittelberatung" element={<Fördermittelberatung />}/>
                 <Route path="/EDL-G_Berichte" element={<EDLGBerichte />}/>
+                 <Route path="Projektmanagement" element={<Projektmanagement />}/>
+
             </Routes>
        <Footer />
      

@@ -79,6 +79,10 @@
 .header{
   @apply text-center text-3xl mx-auto max-w-4xl font-[Montserrat];
 }
+
+.subpageheader{
+  @apply text-left text-3xl mx-auto max-w-4xl font-[Montserrat];
+}
 .content{
   @apply  text-sm text-balance;
 }
