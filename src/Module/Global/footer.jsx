@@ -20,7 +20,7 @@ export default function Footer() {
         </p>
       </aside>
       <nav className="">
-        <h6 className="footer-title link link-hover">Impressum</h6>
+        <a className="footer-title link link-hover" href="Impressum">Impressum</a>
       
       </nav>
 

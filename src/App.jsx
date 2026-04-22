@@ -4,7 +4,7 @@ import { BrowserRouter as Router,
          Routes
       } from 'react-router-dom';
 import {Navbar,Footer} from './Module/Global/globalindex.jsx';
-import {Home,Managementsysteme,Prozessoptimierung,Energieeffizienzberatung,Transformationskonzepte,EDLGBerichte,Fördermittelberatung} from './pages/pagesindex.jsx';
+import {Home,Managementsysteme,Prozessoptimierung,Energieeffizienzberatung,Transformationskonzepte,EDLGBerichte,Fördermittelberatung, Contact} from './pages/pagesindex.jsx';
      
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
      <Router  class="bg-base-100 text-base-content">
      <Navbar />
             <Routes>
+                <Route path="/Impressum" element={<Contact />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/Managementsysteme" element={<Managementsysteme />}/>
                 <Route path="/Prozessoptimierung" element={<Prozessoptimierung />}/>

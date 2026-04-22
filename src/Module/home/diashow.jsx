@@ -99,10 +99,11 @@ export default function Diashow() {
 
             </div>
 
-
+           <div className="hidden md:flex ">
             <a href="#slideC" className="btn ">
               ❯
             </a>
+            </div>
           </div>
 
 
@@ -130,12 +131,12 @@ export default function Diashow() {
 
              
             </div>
-
+<div className="hidden md:flex ">
             <a href="#slideA" className="btn ">
               ❯
             </a>
           </div>
-
+</div>
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
 export default function Diashow() {
   return (
 
-    <div className="min-h-screen md:ml-60 md:mr-60">
-      <div className="mx-auto max-w-7xl text-center">
+    <div className="min-h-screen md:ml-30 md:mr-30">
+      <div className="mx-auto text-center">
 
 
         <div className=" z-5  relative  ">
@@ -12,7 +12,7 @@ export default function Diashow() {
             <h1 className="header">
               EDL-G Berichte
             </h1>
-            <h2 className=" content pt-10 max-w-4xl mx-auto  ">
+            <h2 className=" content pt-10 max-w-6xl mx-auto  ">
 
               Wir erstellen rechtssichere Energieaudits und Berichte nach dem Energiedienstleistungsgesetz (EDL-G) – insbesondere für kleine und mittlere Unternehmen.
 
@@ -30,9 +30,12 @@ Durch unsere praxisorientierte Herangehensweise erhalten Sie nicht nur einen Ber
 
 
 
-          </div>
+         
 
-        </div>
+        
+        <h2 className="header bg-base-200">
+          Was Sie ebenfalls interessieren könnte...
+        </h2>
         <div className=" p-5 pt-0 bg-base-200 md:rounded-b-lg  md:grid grid-flow-col grid-cols-4 gap-3">
 
 
@@ -67,7 +70,8 @@ Durch unsere praxisorientierte Herangehensweise erhalten Sie nicht nur einen Ber
 
       </div>
     </div>
-
+     </div>
+</div>
 
   );
 }
