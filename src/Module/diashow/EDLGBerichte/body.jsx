@@ -4,7 +4,7 @@ import { faDatabase} from '@fortawesome/free-solid-svg-icons';
 export default function Diashow() {
   return (
 
-    <div className="md:rounded-b-lg bg-base-200 md:ml-15 md:mr-15 md:grid md:grid-cols-2">
+    <div className="mx-auto max-w-7xl md:rounded-b-lg bg-base-200 md:grid md:grid-cols-2">
        
       
       
