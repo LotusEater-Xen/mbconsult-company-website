@@ -92,10 +92,10 @@ export default function Navbar() {
                 className="drawer-overlay  "
               ></label>
 
-              <ul className="menu bg-base-200 text-base-content min-h-full w-screen md:w-sm p-4 pb-0 pt-0 flex">
-                <div className="mt-2">
+              <ul className="menu bg-base-200 text-base-content min-h-full w-screen md:w-sm p-4 pr-2 pb-0 pt-0 flex">
+                <div className="mt-5">
                   <div className="float-left text-2xl font-semibold">Menü</div>
-                  <label htmlFor="my-drawer" className="float-right">
+                  <label htmlFor="my-drawer" className="float-right mx-auto text-xl">
                     <FontAwesomeIcon icon={faXmark} />
                   </label>
                 </div>

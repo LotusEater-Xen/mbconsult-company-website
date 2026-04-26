@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPercent, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 export default function Fördermittelberatung() {
   
   return (
@@ -16,8 +19,8 @@ export default function Fördermittelberatung() {
                     there are title and actions parts
                   </p>
                   <div className="card-actions justify-end">
-                    <div className="badge badge-primary badge-outline">Energy</div>
-                    <div className="badge badge-primary badge-outline">Software</div>
+                    <div className="badge badge-primary badge-outline"><FontAwesomeIcon icon={faPercent} /></div>
+                  
                   </div>
                 </div>
               </a>

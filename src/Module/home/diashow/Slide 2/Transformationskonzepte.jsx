@@ -1,3 +1,6 @@
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBolt, faEnvelope,faArrowsUpDownLeftRight } from '@fortawesome/free-solid-svg-icons';
+ 
  export default function Transformationskonzepte() {
   
   return (
@@ -15,8 +18,8 @@
                     there are title and actions parts
                   </p>
                   <div className="card-actions justify-end">
-                    <div className="badge badge-primary badge-outline">Planning</div>
-                    <div className="badge badge-primary badge-outline">Consulting</div>
+                    <div className="badge badge-primary badge-outline"><FontAwesomeIcon icon={faArrowsUpDownLeftRight} /></div>
+                  
                   </div>
                 </div>
               </a>

@@ -22,7 +22,6 @@ import { faBolt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
                   </p>
                   <div className="card-actions justify-end">
                     <div className="badge badge-primary badge-outline"><FontAwesomeIcon icon={faBolt} /></div>
-                    <div className="badge badge-primary badge-outline">Software</div>
                   </div>
                 </div>
              

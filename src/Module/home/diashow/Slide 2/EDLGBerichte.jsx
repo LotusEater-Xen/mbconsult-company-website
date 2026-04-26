@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartPie } from '@fortawesome/free-solid-svg-icons';
+  
+ 
  export default function EDLGBerichte() {
   
   return (
@@ -17,7 +21,7 @@
                     actions parts
                   </p>
                   <div className="card-actions justify-end">
-                    <div className="badge badge-primary badge-outline">Management</div>
+                    <div className="badge badge-primary badge-outline"><FontAwesomeIcon icon={faChartPie} /></div>
                   </div>
                 </div>
               </a>
