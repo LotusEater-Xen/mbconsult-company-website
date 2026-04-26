@@ -11,7 +11,7 @@ export default function Prozessoptimierung() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title font-[Montserrat]">Prozessoptimierung</h2>
+                  <h2 className="card-header">Prozessoptimierung</h2>
                   <p className="describer">
                  Analyse, Bewertung und Optimierung.
                   </p>

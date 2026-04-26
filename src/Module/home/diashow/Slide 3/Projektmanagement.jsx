@@ -9,7 +9,7 @@ export default function Projektmanagement() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title font-[Montserrat]">Projektmanagement</h2>
+                  <h2 className="card-header">Projektmanagement</h2>
                   <p className="describer">
                     A card component has a figure, a body part, and inside body
                     there are title and actions parts

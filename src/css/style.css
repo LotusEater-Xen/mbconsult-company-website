@@ -80,8 +80,12 @@
   @apply text-center text-3xl mx-auto max-w-4xl font-[Montserrat];
 }
 
+.card-header{
+  @apply text-base lg:text-xl text-wrap text-left break-all font-[Montserrat-Medium];
+}
+
 .subpageheader{
-  @apply text-left text-3xl mx-auto max-w-4xl font-[Montserrat];
+  @apply text-left text-2xl lg:text-3xl mx-auto max-w-4xl font-[Montserrat];
 }
 .content{
   @apply  text-sm text-balance;
@@ -97,7 +101,7 @@
 
 }
 .describer {
-  @apply italic text-primary;
+  @apply italic lg:text-sm text-primary;
 
 }
 @utility btn {
@@ -106,6 +110,7 @@
   @apply hover:text-lg;
   
 }
+
 @utility card {
   @apply bg-base-100;
   @apply row-span-2;

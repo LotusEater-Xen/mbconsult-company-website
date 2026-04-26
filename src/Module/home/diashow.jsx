@@ -22,7 +22,7 @@ export default function Diashow() {
           Unsere Dienstleistungen
         </h1>
         {/*Für GutCert als Lead auditor tätig für qmb enms und ums */}
-        <div className=" max-w-7xl mx-auto">
+        <div className="lg:p-0 pr-5 pl-5 max-w-7xl mx-auto">
           <h2 className="content pt-10 text-center">
 
             Wir unterstützen Industrieunternehmen ganzheitlich bei der Optimierung ihrer Energie- und Ressourceneffizienz. Unser Ansatz verbindet technische Expertise mit strategischem Weitblick. Von der Analyse über die Konzeptentwicklung bis hin zur Umsetzung und Fördermittelbegleitung bieten wir maßgeschneiderte Lösungen, die wirtschaftlich sinnvoll und nachhaltig wirksam sind.

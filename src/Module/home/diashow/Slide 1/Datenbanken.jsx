@@ -13,7 +13,7 @@ import { faDatabase} from '@fortawesome/free-solid-svg-icons';
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title font-[Montserrat]">Innovative Datenbanklösungen</h2>
+                  <h2 className="card-header">Datenbanklösungen</h2>
                   <p className="describer">
                    Vernetzung, Standardisierung und Angleichung.
                   </p>

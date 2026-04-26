@@ -9,7 +9,7 @@ export default function Prozessoptimierung() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title font-[Montserrat]">Prozessoptimierung</h2>
+                  <h2 className="card-header">Prozessoptimierung</h2>
                   <p>
                     A card component has ihcidhvidgvhvoufhv9rehvrehvrehvirehv a
                     figure, a body part, and inside body there are title and

@@ -1,7 +1,7 @@
 export default function Body( {header, content, link, headerlink, describerlink, iconlink}) {
   return (
  <body data-theme="nord" className="max-w-full  ">
-      <div className="-mt-10 bg-fixed min-h-screen bg-[url(../sources/clouds-2085112_1920.jpg)] bg-cover">
+      <div className="-mt-10 bg-fixed min-h-screen bg-[url(../sources/industry.jpg)] bg-cover">
     <div className="mx-auto max-w-7xl md:rounded-b-lg bg-base-200 md:grid md:grid-cols-2">
        
       
@@ -26,7 +26,7 @@ export default function Body( {header, content, link, headerlink, describerlink,
          
 <div className="md:pt-15 pb-5 md:col-span-1 ">
        
-        <h2 className="md:text-right text-3xl mx-auto w-full font-[Montserrat] bg-base-200 pl-10 md:mr-10 md:float-right">
+        <h2 className="md:text-right text-2xl lg:text-3xl w-full font-[Montserrat] bg-base-200 pl-10 md:mr-10 md:float-right">
           Ähnliches
         </h2>
 

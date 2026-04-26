@@ -10,7 +10,7 @@ export default function Fördermittelberatung() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title font-[Montserrat]">Fördermittelberatung</h2>
+                  <h2 className="card-header">Fördermittelberatung</h2>
                   <p className="describer">
                     A card component has a figure, a body part, and inside body
                     there are title and actions parts

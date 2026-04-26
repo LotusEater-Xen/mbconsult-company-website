@@ -10,7 +10,7 @@
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title font-[Montserrat]">EDL-G Berichte</h2>
+                  <h2 className="card-header">EDL-G Berichte</h2>
                   <p className="describer">
                     A card component has ihcidhvidgvhvoufhv9rehvrehvrehvirehv a
                     figure, a body part, and inside body there are title and

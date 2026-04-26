@@ -22,8 +22,7 @@ Einhaltung von Zeit- und Budgetvorgaben
 transparenter Kommunikation
 effizienter Koordination aller Projektbeteiligten
 
-So stellen wir sicher, dass Ihre Projekte reibungslos und zielgerichtet realisiert werden.</div>
-  )"
+So stellen wir sicher, dass Ihre Projekte reibungslos und zielgerichtet realisiert werden."
 link="EDL-G_Berichte"
     headerlink="EDL-G Berichte" 
     describerlink="lalalalalalalalalalla"

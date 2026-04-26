@@ -12,7 +12,7 @@ import { faArrowsSpin } from '@fortawesome/free-solid-svg-icons';
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title font-[Montserrat]">Managementsysteme</h2>
+                  <h2 className="card-header">Managementsysteme</h2>
                   <p className="describer">
                    Aufbau, Audits und Schulungen
                   </p>
