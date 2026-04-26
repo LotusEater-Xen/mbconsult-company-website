@@ -2,7 +2,7 @@ import logo from "../../../MBCMe.svg";
 export default function Footer() {
   return (
     
-    <footer className="pl-5 pr-5 z-0 relative bg-slate-300 footer sm:footer-horizontal text-base-content pt-10 pb-5 ">
+    <footer data-theme="nord" className="pl-5 pr-5 z-0 relative bg-slate-300 footer sm:footer-horizontal text-base-content pt-10 pb-5 ">
       <aside>
     
         <p>
@@ -20,7 +20,7 @@ export default function Footer() {
         </p>
       </aside>
       <nav className="">
-        <h6 className="footer-title link link-hover">Impressum</h6>
+        <a className="footer-title link link-hover" href="Impressum">Impressum</a>
       
       </nav>
 

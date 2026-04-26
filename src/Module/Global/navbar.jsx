@@ -12,19 +12,19 @@ import {
 export default function Navbar() {
   return (
     <div className="bg-base-100">
-      <a href="/"
+      <a 
         className="z-10 relative bg-base-100 shadow-lg navbar max-w-full rounded-b-lg"
         data-theme="nord"
       >
-        <div className=" navbar-start w-96">
+        <a href="/" className=" navbar-start w-96">
        
-          <div className="  font-[Montserrat]  sm:text-2xl lg:text-2xl">
+          <div className="  font-[Montserrat]  text-[15px] lg:text-[20px]">
            
             MB | Consult.Me   </div>  
             
             <img src={logo} className="max-h-8  pl-1 pb-2 sm:max-h-9" />
              <div className="pl-1 font-[Montserrat] text-[5px] pt-2">GmbH</div>
-           </div>
+           </a>
            
             
           
@@ -76,11 +76,12 @@ export default function Navbar() {
             </Link>
           </ul>
         </div>
-        <div className=" navbar-end hidden ">
-          <div className="lg:hidden drawer  drawer-end">
+       
+        <div className=" navbar-end w-full">
+          <div className=" drawer  drawer-end">
             <input id="my-drawer" type="checkbox" className="drawer-toggle " />
             <div className="drawer-content ">
-              <label htmlFor="my-drawer" className="btn float-right">
+              <label htmlFor="my-drawer" className="float-right">
                 <FontAwesomeIcon icon={faBars} />
               </label>
             </div>
@@ -91,46 +92,82 @@ export default function Navbar() {
                 className="drawer-overlay  "
               ></label>
 
-              <ul className="menu bg-base-200 text-base-content min-h-full w-screen md:w-sm p-4 pb-0 pt-0 flex">
-                <div className="mt-2">
-                  <div className="float-left text-2xl font-semibold">Menu</div>
-                  <label htmlFor="my-drawer" className="btn float-right">
+              <ul className="menu bg-base-200 text-base-content min-h-full w-screen md:w-sm p-4 pr-2 pb-0 pt-0 flex">
+                <div className="mt-5">
+                  <div className="float-left text-2xl font-semibold">Menü</div>
+                  <label htmlFor="my-drawer" className="float-right mx-auto text-xl">
                     <FontAwesomeIcon icon={faXmark} />
                   </label>
                 </div>
                 <div className="divider "></div>
                 <div className=" max-w-6xl">
-                  <strong>Main Pages</strong>
+                  <strong>Seiten</strong>
                   <li>
                     <Link
               to={""}>
-                    <a>Home</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-              to={"services"}>
-                    <a>Services</a>
+                    <a>Hauptseite</a>
                     </Link>
                   </li>
                   <li>
                       <Link
-              to={"contact"}>
-                    <a>Contact</a>
+              to={"Impressum"}>
+                    <a>Kontakt</a>
                     </Link>
                   </li>
 
-                  <strong>Services</strong>
+                  <strong>Dienstleistungen</strong>
                   <li>
                     <Link
-              to={"consulting"}>
-                    <a>Energy Consulting</a>
+              to={"Managementsysteme"}>
+                    <a>Managementsysteme</a>
                     </Link>
                   </li>
                   <li>
                        <Link
-              to={"software"}>
-                    <a>Software</a>
+              to={"Prozessoptimierung"}>
+                    <a>Prozessoptimierung</a>
+                    </Link>
+                  </li>
+
+                   <li>
+                       <Link
+              to={"Datenbanken"}>
+                    <a>Datenbanken</a>
+                    </Link>
+                  </li>
+
+                   <li>
+                       <Link
+              to={"EDL-G_Berichte"}>
+                    <a>EDL-G Berichte</a>
+                    </Link>
+                  </li>
+
+                   <li>
+                       <Link
+              to={"Energieeffizienzberatung"}>
+                    <a>Energieeffizienzberatung</a>
+                    </Link>
+                  </li>
+
+                   <li>
+                       <Link
+              to={"Transformationskonzepte"}>
+                    <a>Transformationskonzepte</a>
+                    </Link>
+                  </li>
+
+                   <li>
+                       <Link
+              to={"Projektmanagement"}>
+                    <a>Projektmanagement</a>
+                    </Link>
+                  </li>
+
+                   <li>
+                       <Link
+              to={"Fördermittelberatung"}>
+                    <a>Fördermittelberatung</a>
                     </Link>
                   </li>
 

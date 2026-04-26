@@ -79,6 +79,14 @@
 .header{
   @apply text-center text-3xl mx-auto max-w-4xl font-[Montserrat];
 }
+
+.card-header{
+  @apply text-base lg:text-xl text-wrap text-left break-all font-[Montserrat-Medium];
+}
+
+.subpageheader{
+  @apply text-left text-2xl lg:text-3xl mx-auto max-w-4xl font-[Montserrat];
+}
 .content{
   @apply  text-sm text-balance;
 }
@@ -87,12 +95,13 @@
   @apply shadow-md bg-base-200  h-100 md:h-auto;
 }
 
+/*GRID COLS ADDED SEPARATELY!!!*/
 .diashow2-grid {
-  @apply inline max-w-full mx-auto md:h-100 md:grid grid-cols-3 grid-rows-1 gap-0;
+  @apply inline max-w-full mx-auto md:h-100 md:grid grid-rows-1 gap-0;
 
 }
 .describer {
-  @apply italic text-primary;
+  @apply italic lg:text-sm text-primary;
 
 }
 @utility btn {
@@ -101,6 +110,7 @@
   @apply hover:text-lg;
   
 }
+
 @utility card {
   @apply bg-base-100;
   @apply row-span-2;
