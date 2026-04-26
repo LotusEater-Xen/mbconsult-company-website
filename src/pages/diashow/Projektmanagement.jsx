@@ -1,24 +1,63 @@
-
-import Body from "../../Module/diashow/Projektmanagement/body";
-
-import "../../css/style.css"; // Import the CSS for this component
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Regular.ttf";
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Bold.ttf";
-
-const Home = () => {
-  //Lukas Tip: You can change the theming, try swapping the data-theme for light/dark !
-  //Lukas Workflow: Create a folder for each page, copy the modules that you need and adjust the blueprint.
-  //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
+import Body from '../../Module/diashow/body'
+   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDatabase} from '@fortawesome/free-solid-svg-icons';
+export default function Subpage() {
   return (
-    <body data-theme="nord" className="max-w-full  ">
-      <div className="-mt-10 bg-fixed min-h-screen bg-[url(../sources/clouds-2085112_1920.jpg)] bg-cover">
-    
-        <Body />
-       
-      </div>
-    
-    </body>
-  );
-};
+    <Body
+    header="Projektmanagement"
+    content=" 
+Wir übernehmen das Projektmanagement für Energie- und Effizienzprojekte – flexibel angepasst an Ihre Anforderungen.
 
-export default Home;
+Je nach Bedarf agieren wir als:
+
+externer Projektleiter
+koordinierende Schnittstelle zwischen allen Beteiligten
+technischer Sparringspartner
+
+Dabei nutzen wir strukturierte Methoden wie die PESTEL-Analyse, um Projekte ganzheitlich zu bewerten und erfolgreich umzusetzen.
+
+Unser Fokus liegt auf:
+
+Einhaltung von Zeit- und Budgetvorgaben
+transparenter Kommunikation
+effizienter Koordination aller Projektbeteiligten
+
+So stellen wir sicher, dass Ihre Projekte reibungslos und zielgerichtet realisiert werden.</div>
+  )"
+link="EDL-G_Berichte"
+    headerlink="EDL-G Berichte" 
+    describerlink="lalalalalalalalalalla"
+    iconlink={<FontAwesomeIcon icon={faDatabase} />}/>
+
+   
+
+  );
+}
+
+
+  
+
+
+
+
+   
+
+
+
+
+
+         
+
+  
+
+
+
+
+   
+
+
+
+
+
+         
+

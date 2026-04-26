@@ -1,24 +1,61 @@
-
-import Body from "../../Module/diashow/Fördermittelberatung/body";
-
-import "../../css/style.css"; // Import the CSS for this component
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Regular.ttf";
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Bold.ttf";
-
-const Home = () => {
-  //Lukas Tip: You can change the theming, try swapping the data-theme for light/dark !
-  //Lukas Workflow: Create a folder for each page, copy the modules that you need and adjust the blueprint.
-  //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
+import Body from '../../Module/diashow/body'
+   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDatabase} from '@fortawesome/free-solid-svg-icons';
+export default function Subpage() {
   return (
-    <body data-theme="nord" className="max-w-full  ">
-      <div className="-mt-10 bg-fixed min-h-screen bg-[url(../sources/clouds-2085112_1920.jpg)] bg-cover">
-    
-        <Body />
-       
-      </div>
-    
-    </body>
-  );
-};
+    <Body
+    header="Fördermittelberatung"
+    content=" 
 
-export default Home;
+    Wir unterstützen Sie bei der Identifikation und Nutzung geeigneter Förderprogramme – von BAFA über KfW bis hin zu EU-Förderungen.
+
+Unsere Fördermittelberatung umfasst sowohl Nichtwohngebäude (NWG) als auch industrielle Prozessanlagen und ist vollständig auf Ihre Investitionsvorhaben abgestimmt.
+
+Unsere Leistungen:
+
+Auswahl passender Förderprogramme
+Technische und wirtschaftliche Bewertung der Maßnahmen
+Erstellung förderfähiger Konzepte und Nachweise
+Unterstützung oder vollständige Übernahme der Antragstellung
+Begleitung während der Projektumsetzung
+
+Durch unsere Erfahrung stellen wir sicher, dass Sie Förderpotenziale optimal ausschöpfen und Investitionsrisiken minimieren.
+
+           "
+
+link="EDL-G_Berichte"
+    headerlink="EDL-G Berichte" 
+    describerlink="lalalalalalalalalalla"
+    iconlink={<FontAwesomeIcon icon={faDatabase} />}/>
+
+   
+
+  );
+}
+
+
+  
+
+
+
+
+   
+
+
+
+
+
+         
+
+  
+
+
+
+
+   
+
+
+
+
+
+         

@@ -1,24 +1,57 @@
-
-import Body from "../../Module/diashow/Managementsysteme/body";
-
-import "../../css/style.css"; // Import the CSS for this component
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Regular.ttf";
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Bold.ttf";
-
-const Home = () => {
-  //Lukas Tip: You can change the theming, try swapping the data-theme for light/dark !
-  //Lukas Workflow: Create a folder for each page, copy the modules that you need and adjust the blueprint.
-  //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
+import Body from '../../Module/diashow/body'
+   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDatabase} from '@fortawesome/free-solid-svg-icons';
+export default function Subpage() {
   return (
-    <body data-theme="nord" className="max-w-full  ">
-      <div className="-mt-10 bg-fixed min-h-screen bg-[url(../sources/clouds-2085112_1920.jpg)] bg-cover">
-    
-        <Body />
-       
-      </div>
-    
-    </body>
-  );
-};
+    <Body
+    header="Managementsysteme"
+    content=" 
+Wir begleiten Unternehmen bei der Einführung, Optimierung und Zertifizierung von Managementsystemen – mit besonderem Fokus auf Energiemanagement nach ISO 50001.
 
-export default Home;
+Unsere Leistungen umfassen:
+
+Aufbau und Implementierung neuer Managementsysteme
+Weiterentwicklung bestehender Strukturen
+Durchführung interner Audits
+Vorbereitung und Begleitung externer Zertifizierungen
+Schulung von Mitarbeitenden und Verantwortlichen
+
+Dank unserer Erfahrung in unterschiedlichen Branchen – von kommunalen Betrieben über Netzbetreiber bis hin zur Industrie – entwickeln wir Lösungen, die individuell auf Ihre Organisation zugeschnitten sind und echten Mehrwert schaffen."
+    
+
+link="EDL-G_Berichte"
+    headerlink="EDL-G Berichte" 
+    describerlink="lalalalalalalalalalla"
+    iconlink={<FontAwesomeIcon icon={faDatabase} />}/>
+
+   
+
+  );
+}
+
+
+  
+
+
+
+
+   
+
+
+
+
+
+         
+
+  
+
+
+
+
+   
+
+
+
+
+
+         

@@ -1,24 +1,63 @@
-
-import Body from "../../Module/diashow/Energieeffizienzberatung/body";
-
-import "../../css/style.css"; // Import the CSS for this component
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Regular.ttf";
-import "../../sources/fonts/Montserrat Alternates/Montserrat_Alternates//MontserratAlternates-Bold.ttf";
-
-const Home = () => {
-  //Lukas Tip: You can change the theming, try swapping the data-theme for light/dark !
-  //Lukas Workflow: Create a folder for each page, copy the modules that you need and adjust the blueprint.
-  //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
+import Body from '../../Module/diashow/body'
+   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDatabase} from '@fortawesome/free-solid-svg-icons';
+export default function Subpage() {
   return (
-    <body data-theme="nord" className="max-w-full  ">
-      <div className="-mt-10 bg-fixed min-h-screen bg-[url(../sources/clouds-2085112_1920.jpg)] bg-cover">
-    
-        <Body />
-       
-      </div>
-    
-    </body>
-  );
-};
+    <Body
+    header="Energieeffizienzberatung"
+    content=" 
+Als bei der BAFA gelisteter Energieberater führen wir Energieaudits nach DIN EN 16247 sowie umfassende Energieeffizienzanalysen durch.
 
-export default Home;
+Unsere Beratung geht bewusst über Standardlösungen hinaus:
+Wir betrachten sowohl Querschnittstechnologien (z. B. Druckluft, Pumpen, Wärmeversorgung) als auch spezifische Produktionsprozesse im Detail.
+
+Durch den Einsatz eigener Analysewerkzeuge und einer eigenentwickelten Energieeffizienz-Datenbank identifizieren wir Einsparpotenziale präzise und bewerten diese wirtschaftlich fundiert.
+
+Unsere Leistungen im Überblick:
+
+Detaillierte Energieverbrauchsanalysen und Lastgangauswertungen
+Identifikation und Priorisierung von Effizienzmaßnahmen
+Wirtschaftlichkeitsberechnungen (ROI, Amortisation)
+Umsetzungsbegleitung und Erfolgskontrolle
+
+Ziel ist es, konkrete, umsetzbare Maßnahmen zu entwickeln, die Ihre Energiekosten nachhaltig senken.
+
+
+          "
+
+link="EDL-G_Berichte"
+    headerlink="EDL-G Berichte" 
+    describerlink="lalalalalalalalalalla"
+    iconlink={<FontAwesomeIcon icon={faDatabase} />}/>
+
+   
+
+  );
+}
+
+
+  
+
+
+
+
+   
+
+
+
+
+
+         
+
+  
+
+
+
+
+   
+
+
+
+
+
+         
