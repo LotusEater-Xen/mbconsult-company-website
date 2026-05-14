@@ -16,9 +16,12 @@ Durch den Einsatz eigener Analysewerkzeuge und einer eigenentwickelten Energieef
 Unsere Leistungen im Überblick:
 
 Detaillierte Energieverbrauchsanalysen und Lastgangauswertungen
-Identifikation und Priorisierung von Effizienzmaßnahmen
-Wirtschaftlichkeitsberechnungen (ROI, Amortisation)
-Umsetzungsbegleitung und Erfolgskontrolle
+Identifikation und Priorisierung von Effizienzmaßnahmen 
+(Normalisierung, Regressionsbewertung)
+Wirtschaftlichkeitsberechnungen 
+(Valeri, LCY-Bewertung)
+Umsetzungsbegleitung und Erfolgskontrolle 
+(messtechnische Auswertung)
 
 Ziel ist es, konkrete, umsetzbare Maßnahmen zu entwickeln, die Ihre Energiekosten nachhaltig senken.
 

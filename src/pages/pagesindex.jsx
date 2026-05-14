@@ -7,11 +7,15 @@ import Home from './Home.jsx';
       import EDLGBerichte from './diashow/EDLGBerichte.jsx';
       import Fördermittelberatung from './diashow/Fördermittelberatung.jsx';
       import Projektmanagement from './diashow/Projektmanagement.jsx';
+      import Datenbanklösungen from './diashow/Datenbanklösungen.jsx';
+      import Berichtspflichten from './diashow/Berichtspflichten.jsx'
 import Contact from './Contact.jsx';
 
 export{ Home,
          Managementsysteme,
+         Berichtspflichten,
          Prozessoptimierung,
+         Datenbanklösungen,
          Energieeffizienzberatung,
          Transformationskonzepte,
          Fördermittelberatung,

@@ -8,6 +8,7 @@ import Transformationskonzepte from './Slide 2/Transformationskonzepte';
 
 import Projektmanagement from './Slide 3/Projektmanagement';
 import Fördermittelberatung from './Slide 3/Fördermittelberatung';
+import Berichtspflichten from './Slide 3/Berichtspflichten';
 
 export {Managementsysteme,
         Prozessoptimierung,
@@ -18,5 +19,7 @@ export {Managementsysteme,
         Transformationskonzepte,
 
         Fördermittelberatung,
-        Projektmanagement
+        Projektmanagement,
+        Berichtspflichten
+
 }

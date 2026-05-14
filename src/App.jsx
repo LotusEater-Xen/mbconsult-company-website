@@ -4,7 +4,17 @@ import { BrowserRouter as Router,
          Routes
       } from 'react-router-dom';
 import {Navbar,Footer} from './Module/Global/globalindex.jsx';
-import {Home,Managementsysteme,Prozessoptimierung,Energieeffizienzberatung,Transformationskonzepte,EDLGBerichte,Fördermittelberatung, Projektmanagement, Contact} from './pages/pagesindex.jsx';
+import {Home,
+        Managementsysteme,
+        Prozessoptimierung,
+        Berichtspflichten,
+        Datenbanklösungen,
+        Energieeffizienzberatung,
+        Transformationskonzepte,
+        EDLGBerichte,
+        Fördermittelberatung,
+        Projektmanagement,
+        Contact} from './pages/pagesindex.jsx';
      
 function App() {
   return (
@@ -14,7 +24,9 @@ function App() {
             <Routes>
                 <Route path="/Impressum" element={<Contact />} />
                 <Route path="/" element={<Home />} />
+                <Route path="/Berichtspflichten" element={<Berichtspflichten />} />
                 <Route path="/Managementsysteme" element={<Managementsysteme />}/>
+                 <Route path="/Datenbanken" element={<Datenbanklösungen />}/>
                 <Route path="/Prozessoptimierung" element={<Prozessoptimierung />}/>
                 <Route path="/Energieeffizienzberatung" element={<Energieeffizienzberatung />}/>
                 <Route path="/Transformationskonzepte" element={<Transformationskonzepte />}/>
